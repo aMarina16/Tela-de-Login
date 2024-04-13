@@ -2,37 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* bs - você pode definir a largura e altura de um elemento
-     e ter certeza de que o padding e a borda serão 
-     incluídos nesses valores*/
     font-family: 'Mukta', sans-serif;
 }
 
 body {
-    height: 100vh;/*VH SIGNIFICA VIEWPOINT HEIGHT, VIEWPONT
-    É A AREA VISIVEL DE UMA PAGINA, 100 = 100% DA VH*/
-    display: flex;/*ATIVA O FLEXBOX A TODOS OS ELEMENTOS DENTRO*/
-    justify-content: center;/*CENTRALIZA HORIZONTALMENTE*/
-    align-items: center;/*CENTRALIZA VERTICALMENTE*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(90deg, rgb(240, 96, 245), rgb(253, 141, 76));
 }
 
 .container {
     background: white;
-    padding: 20px; /*ESPAÇAMENTO INTERNO,
-    AFASTAMENTO ENTRE BORDA E CONTEUDO*/
+    padding: 20px;
     width: 400px;
     height: 400px;
-    border-radius: 8px; /*CURVATURA DA BORDA*/
+    border-radius: 8px;
     box-shadow: 5px 5px 5px rgb(253, 141, 76);
 }
 
 h1 {
-    text-align: center;/*TITULO NO CENTRO*/
+    text-align: center;
 }
 
 label, input, button {
-    display: block; /*ELEMENTOS UM ABAIXO DO OUTRO*/
+    display: block;
     width: 100%;
     border: none;
 }
@@ -44,7 +39,7 @@ input label {
 input {
     margin-bottom: 20px;
     border-bottom: 1px solid black;
-    outline: none;/*REMOVE A BORDA QUANDO O INPUT ESTA FOCADO*/
+    outline: none;
 }
 
 #email-label {
