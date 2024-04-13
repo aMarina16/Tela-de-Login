@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* bs - você pode definir a largura e altura de um elemento
+     e ter certeza de que o padding e a borda serão 
+     incluídos nesses valores*/
+    font-family: 'Mukta', sans-serif;
+}
+
+body {
+    height: 100vh;/*VH SIGNIFICA VIEWPOINT HEIGHT, VIEWPONT
+    É A AREA VISIVEL DE UMA PAGINA, 100 = 100% DA VH*/
+    display: flex;/*ATIVA O FLEXBOX A TODOS OS ELEMENTOS DENTRO*/
+    justify-content: center;/*CENTRALIZA HORIZONTALMENTE*/
+    align-items: center;/*CENTRALIZA VERTICALMENTE*/
+    background: linear-gradient(90deg, rgb(240, 96, 245), rgb(253, 141, 76));
+}
+
+.container {
+    background: white;
+    padding: 20px; /*ESPAÇAMENTO INTERNO,
+    AFASTAMENTO ENTRE BORDA E CONTEUDO*/
+    width: 400px;
+    height: 400px;
+    border-radius: 8px; /*CURVATURA DA BORDA*/
+    box-shadow: 5px 5px 5px rgb(253, 141, 76);
+}
+
+h1 {
+    text-align: center;/*TITULO NO CENTRO*/
+}
+
+label, input, button {
+    display: block; /*ELEMENTOS UM ABAIXO DO OUTRO*/
+    width: 100%;
+    border: none;
+}
+
+input label {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    outline: none;/*REMOVE A BORDA QUANDO O INPUT ESTA FOCADO*/
+}
+
+#email-label {
+    margin-top: 40px;
+}
+button {
+    padding:8px;
+    background: linear-gradient(90deg, rgb(240, 96, 245), rgb(248, 120, 45));
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
